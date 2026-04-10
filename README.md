@@ -1,4 +1,3 @@
-# Traditional_PD_model
 
 # Wisconsin Mortgage PD Model
 Overview
