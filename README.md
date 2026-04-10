@@ -19,14 +19,14 @@ Performance data: monthly loan outcomes
 
 The project follows a traditional credit risk modeling workflow:
 
-Constructed a 12-month default target from monthly performance records
-Filtered and aggregated large loan-level performance files
-Applied Weight of Evidence (WOE) transformation and Information Value (IV) screening
-Built a logistic regression PD model
-Evaluated performance using AUC, KS, lift, and Brier Score
-Assessed population drift using PSI
-Applied intercept-only recalibration to correct probability bias
-Built a decision strategy using calibrated PD cutoffs
+- Constructed a 12-month default target from monthly performance records  
+- Filtered and aggregated large loan-level performance files  
+- Applied Weight of Evidence (WOE) transformation and Information Value (IV) screening  
+- Built a logistic regression PD model
+- Evaluated performance using AUC, KS, lift, and Brier Score  
+- Assessed population drift using PSI  
+- Applied intercept-only recalibration to correct probability bias  
+- Built a decision strategy using calibrated PD cutoffs
 
 # Key Results
 Train AUC: 0.817  
