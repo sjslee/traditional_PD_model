@@ -1,20 +1,22 @@
 # Traditional_PD_model
-Wisconsin Mortgage PD Model
+
+# Wisconsin Mortgage PD Model
 Overview
 
 This project develops a Probability of Default (PD) model for Wisconsin mortgage loans originated between 2020 and 2022 using traditional credit risk modeling techniques. The analysis predicts whether a loan will default within 12 months of origination, evaluates model stability over time, and demonstrates how model outputs can support risk-based lending decisions.
 
-Business Objective
+# Business Objective
 
 The goal is to estimate 12-month default risk for mortgage loans and assess whether the model remains reliable under changing borrower conditions. The project also shows how calibrated PDs can be translated into approval cutoffs and portfolio risk trade-offs.
 
-Data Source
+# Data Source
 Freddie Mac Single-Family Loan-Level Dataset
 Scope: Wisconsin mortgage originations from 2020 to 2022
 Inputs:
 Origination data: borrower and loan characteristics
 Performance data: monthly loan outcomes
-Methodology
+
+# Methodology
 
 The project follows a traditional credit risk modeling workflow:
 
@@ -26,7 +28,8 @@ Evaluated performance using AUC, KS, lift, and Brier Score
 Assessed population drift using PSI
 Applied intercept-only recalibration to correct probability bias
 Built a decision strategy using calibrated PD cutoffs
-Key Results
+
+# Key Results
 Train AUC: 0.817
 Validation AUC: 0.824
 OOT AUC: 0.808
@@ -35,12 +38,11 @@ PSI: 0.33
 
 The model showed strong and stable discriminatory power across datasets. Population drift caused overestimation of default probabilities in the OOT sample, but intercept recalibration improved probability alignment without affecting model ranking.
 
-Decision Strategy
+# Decision Strategy
 
 Using calibrated PDs, the project evaluates the trade-off between approval rate and default risk. A cutoff range around 0.005 to 0.008 provides a strong balance between approval volume and risk reduction, reducing default risk materially relative to the full portfolio.
 
-
-Next Steps
+# Next Steps
 Ongoing model monitoring on new OOT samples
 Periodic recalibration
 Stress testing under adverse borrower conditions
