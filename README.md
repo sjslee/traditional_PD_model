@@ -29,11 +29,11 @@ Applied intercept-only recalibration to correct probability bias
 Built a decision strategy using calibrated PD cutoffs
 
 # Key Results
-Train AUC: 0.817
-Validation AUC: 0.824
-OOT AUC: 0.808
-KS: 0.514
-PSI: 0.33
+Train AUC: 0.817  
+Validation AUC: 0.824  
+OOT AUC: 0.808  
+KS: 0.514  
+PSI: 0.33  
 
 The model showed strong and stable discriminatory power across datasets. Population drift caused overestimation of default probabilities in the OOT sample, but intercept recalibration improved probability alignment without affecting model ranking.
 
