@@ -4,7 +4,7 @@ Overview
 
 This project develops a Probability of Default (PD) model for Wisconsin mortgage loans originated between 2020 and 2022 using traditional credit risk modeling techniques. The analysis predicts whether a loan will default within 12 months of origination, evaluates model stability over time, and demonstrates how model outputs can support risk-based lending decisions.
 
-# Business Objective
+# Objective
 
 The goal is to estimate 12-month default risk for mortgage loans and assess whether the model remains reliable under changing borrower conditions. The project also shows how calibrated PDs can be translated into approval cutoffs and portfolio risk trade-offs.
 
