@@ -9,11 +9,11 @@ This project develops a Probability of Default (PD) model for Wisconsin mortgage
 The goal is to estimate 12-month default risk for mortgage loans and assess whether the model remains reliable under changing borrower conditions. The project also shows how calibrated PDs can be translated into approval cutoffs and portfolio risk trade-offs.
 
 # Data Source
-Freddie Mac Single-Family Loan-Level Dataset  
-Scope: Wisconsin mortgage originations from 2020 to 2022  
+- Freddie Mac Single-Family Loan-Level Dataset  
+- Scope: Wisconsin mortgage originations from 2020 to 2022  
 Inputs:  
-Origination data: borrower and loan characteristics  
-Performance data: monthly loan outcomes
+- Origination data: borrower and loan characteristics  
+- Performance data: monthly loan outcomes
 
 # Methodology
 
@@ -38,8 +38,13 @@ PSI: 0.33
 The model showed strong and stable discriminatory power across datasets. Population drift caused overestimation of default probabilities in the OOT sample, but intercept recalibration improved probability alignment without affecting model ranking.
 
 # Decision Strategy
+Calibrated PDs were used to evaluate the trade-off between approval rate and default risk.
 
-Using calibrated PDs, the project evaluates the trade-off between approval rate and default risk. A cutoff range around 0.005 to 0.008 provides a strong balance between approval volume and risk reduction, reducing default risk materially relative to the full portfolio.
+Recommended cutoff: 0.005 – 0.008
+Achieves strong balance between:
+approval volume
+risk reduction
+
 
 # Next Steps
 - Ongoing model monitoring on new OOT samples  
