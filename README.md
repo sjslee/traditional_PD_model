@@ -43,9 +43,8 @@ Calibrated PDs were used to evaluate the trade-off between approval rate and def
 
 - Recommended cutoff: 0.005 – 0.008
 - Achieves strong balance between:  
--- approval volume  
--- risk reduction  
-
+-- approval volume (~70–80%)
+-- risk reduction (~2–3x lower than portfolio average)
 
 # Next Steps
 - Ongoing model monitoring on new OOT samples  
