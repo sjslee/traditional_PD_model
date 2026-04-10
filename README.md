@@ -42,7 +42,7 @@ The model showed strong and stable discriminatory power across datasets. Populat
 Calibrated PDs were used to evaluate the trade-off between approval rate and default risk.
 
 - Recommended cutoff: 0.005 – 0.008
-- Achieves strong balance between:
+- Achieves strong balance between:  
 -- approval volume  
 -- risk reduction  
 
