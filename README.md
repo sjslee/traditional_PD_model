@@ -11,9 +11,10 @@ The goal is to estimate 12-month default risk for mortgage loans and assess whet
 # Data Source
 - Freddie Mac Single-Family Loan-Level Dataset  
 - Scope: Wisconsin mortgage originations from 2020 to 2022  
-Inputs:  
-- Origination data: borrower and loan characteristics  
-- Performance data: monthly loan outcomes
+
+-Inputs:  
+Origination data: borrower and loan characteristics  
+Performance data: monthly loan outcomes
 
 # Methodology
 
