@@ -42,7 +42,7 @@ The model showed strong and stable discriminatory power across datasets. Populat
 Using calibrated PDs, the project evaluates the trade-off between approval rate and default risk. A cutoff range around 0.005 to 0.008 provides a strong balance between approval volume and risk reduction, reducing default risk materially relative to the full portfolio.
 
 # Next Steps
-Ongoing model monitoring on new OOT samples  
-Periodic recalibration  
-Stress testing under adverse borrower conditions  
-Extension to machine learning models such as Random Forest and XGBoost  
+- Ongoing model monitoring on new OOT samples  
+- Periodic recalibration  
+- Stress testing under adverse borrower conditions  
+- Extension to machine learning models such as Random Forest and XGBoost  
