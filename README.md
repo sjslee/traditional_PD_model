@@ -9,10 +9,10 @@ This project develops a Probability of Default (PD) model for Wisconsin mortgage
 The goal is to estimate 12-month default risk for mortgage loans and assess whether the model remains reliable under changing borrower conditions. The project also shows how calibrated PDs can be translated into approval cutoffs and portfolio risk trade-offs.
 
 # Data Source
-Freddie Mac Single-Family Loan-Level Dataset
-Scope: Wisconsin mortgage originations from 2020 to 2022
-Inputs:
-Origination data: borrower and loan characteristics
+Freddie Mac Single-Family Loan-Level Dataset  
+Scope: Wisconsin mortgage originations from 2020 to 2022  
+Inputs:  
+Origination data: borrower and loan characteristics  
 Performance data: monthly loan outcomes
 
 # Methodology
